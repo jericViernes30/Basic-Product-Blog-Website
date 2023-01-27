@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: #BDE3F2;
+}
+
+nav{
+    display: flex;
+    float: right;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 55px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #F2AEC1;
+    transition: .1s;
+}
+
+img{
+    position: relative;
+    top: 230px;
+    left: 200px;
+    width: 40%;
+ }
+
+ .prod-desc{
+    float: right;
+    position: relative;
+    right: 20%;
+    bottom: 210px;
+ }
+
+ .prod-desc h1{
+    padding-bottom: 15px;
+    font-size: 36px;
+    color: #F2AEC1;
+ }
+ .prod-desc h4{
+    font-size: 28px;
+    font-weight: 100;
+ }
+
+ .prod-desc span{
+    font-size: 28px;
+    font-weight: 100;
+    padding-right: 5px;
+ }
+
+ .prod-desc h5{
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 25px;
+ }
+
+ .prod-desc p{
+    font-size: 18px;
+    padding-top: 6%;
+ }
+
+ .prod-desc p span{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #F2AEC1;
+ }
+
+ .prod-intro{
+    position: relative;
+    top: 300px;
+    left: 290px;
+ }
+
+ .prod-intro .top{
+    font-size: 15px;
+    padding-bottom: 1%;
+ }
+
+ .prod-intro h1{
+    padding-bottom: 1%;
+ }
+
+ .prod-intro h3{
+    font-weight: 400;
+    padding-bottom: 1%;
+    font-size: 24px;
+ }
+
+ .prod-intro h3 span{
+    font-weight: bold;
+    color:#F2AEC1;
+ }
+
+ .prod-intro .desc{
+    font-size: 21px;
+    line-height: 25px;
+    padding-bottom: 1%;
+ }
+
+ .prod-intro .desc span{
+    color: #333333;
+    font-weight: bold;
+ }
+
+ .prod-intro .sec{
+    padding-bottom: 1%;
+    padding-top: 1%;
+ }
+
+ .prod-intro .hyp{
+    font-size: 21px;
+    padding-bottom: 1%;
+ }
+
+ .prod-intro .apply{
+    padding-bottom: 1%;
+    padding-top: 1%;
+ }
+
+ .prod-intro .app-proc{
+    font-size: 21px;
+    padding-bottom: 1%;
+ }
+
+ .prod-intro .ingredients{
+    font-size: 21px;
+    padding-bottom: 1%;
+ }
+
+ .prod-intro .ingredients span{
+    font-weight: bold;
+    color: #333333; 
+ }
